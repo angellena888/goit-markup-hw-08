@@ -1,0 +1,205 @@
+:root {
+--main-title-text-color: #212121;
+--other-title-color: #fff;
+--primary-text-color: #757575;
+--accent-color: #2196F3;
+--accent-background-color: #2F303A;
+}
+body {
+    background-color: #fff;
+    color: var(--main-title-text-color);
+    width: 1600px;
+    font-family: 'Roboto', sans-serif;
+}
+/* Студія */
+.logo {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19;
+    letter-spacing: 0.03em;
+}
+.logo-web {
+    color: var(--accent-color);
+}
+.logo-studio {
+    color: var(--main-title-text-color);
+}
+.visually-hidden {
+  position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.site-nav .nav-link {
+    color: var(--main-title-text-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+}
+.site-nav {
+    list-style: none;
+}
+.site-nav .nav-link:hover,
+.site-nav .nav-link:focus{
+    color: var(--accent-color);
+}
+.link.current {
+    color: var(--accent-color);
+}
+.list-contact {
+    list-style: none;
+}
+.list-contact .contact-link {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.list-contact .contact-link:hover,
+.list-contact .contact-link:focus {
+    color: var(--accent-color);
+}
+.section-hero {
+    background-color: var(--accent-background-color);
+}
+.hero-title {
+    color: var(--other-title-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.hero-button {
+    color: var(--other-title-color);
+    background-color: var(--accent-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1,88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+.hero-button:hover {
+    background-color: #188CE8;
+}
+.benefits-list {
+    list-style: none;
+}
+.benefits-list .title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.benefits-list .text {
+    font-size: 14px;
+    line-height: 1,71;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.section-examples .img-examples {
+    list-style: none;
+}
+.team-section {
+    background-color: #F5F4FA;
+}
+.team-section .employee {
+    background-color: #fff;
+}
+.team {
+    list-style: none;
+}
+.team-section .name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,18;
+    letter-spacing: 0.03em;
+}
+.team-section .text {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.footer {
+    background-color: var(--accent-background-color);
+}
+.footer .logo-studio {
+    color: var(--other-title-color);
+}
+.address {
+    font-style: normal;
+}
+.map {
+    color: var(--other-title-color);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1,7;
+    letter-spacing: 0.03em;
+}
+.map:hover,
+.map:focus {
+    color: var(--accent-color);
+}
+
+/* Портфоліо */
+.filter-buttons {
+    list-style: none;
+}
+.portfolio-buttons {
+    color: var(--main-title-text-color);
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    font-family: inherit;
+}
+.portfolio-buttons:hover,
+.portfolio-buttons:focus {
+    color: var(--other-title-color);
+    background-color: var(--accent-color);
+}
+.portfolio-list {
+    list-style: none;
+}
+.portfolio-list .title {
+    color: var(--main-title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.portfolio-list .text {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1,88;
+    letter-spacing: 0.03em;
+}
