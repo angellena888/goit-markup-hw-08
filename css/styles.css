@@ -17,7 +17,7 @@ body {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
     letter-spacing: 0.03em;
 }
 .logo-web {
@@ -43,7 +43,7 @@ body {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 .site-nav {
@@ -63,7 +63,7 @@ body {
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
@@ -78,7 +78,7 @@ body {
     color: var(--other-title-color);
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,36;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -89,7 +89,7 @@ body {
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1,88;
+    line-height: 1.88;
     display: flex;
     align-items: center;
     text-align: center;
@@ -111,14 +111,14 @@ body {
 }
 .benefits-list .text {
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
 h2 {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,17;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -137,7 +137,7 @@ h2 {
 .team-section .name {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,18;
+    line-height: 1.18;
     letter-spacing: 0.03em;
 }
 .team-section .text {
@@ -155,12 +155,29 @@ h2 {
 .address {
     font-style: normal;
 }
+
+.list-contact-footer {
+    list-style: none;
+}
+.list-contact-footer .contact-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+.list-contact-footer .contact-link:hover,
+.list-contact-footer .contact-link:focus {
+    color: var(--accent-color);
+}
 .map {
     color: var(--other-title-color);
     text-decoration: none;
     font-size: 14px;
-    line-height: 1,7;
+    line-height: 1.7;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 .map:hover,
 .map:focus {
@@ -176,7 +193,7 @@ h2 {
     background-color: #F5F4FA;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,63;
+    line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
@@ -200,6 +217,6 @@ h2 {
 .portfolio-list .text {
     color: var(--primary-text-color);
     font-size: 16px;
-    line-height: 1,88;
+    line-height: 1.88;
     letter-spacing: 0.03em;
 }
