@@ -305,9 +305,11 @@ h2 {
     text-decoration: none;
     display: block;
 }
-.list-contact-footer.contact-link:not(:last-child) {
+.footer-item:not(:last-child) {
     margin-bottom: 9px;
+    
 }
+
 .list-contact-footer .contact-link:hover,
 .list-contact-footer .contact-link:focus {
     color: var(--accent-color);
