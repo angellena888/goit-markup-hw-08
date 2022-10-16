@@ -100,7 +100,6 @@ ul {
 .header-container {
     display: flex; 
     align-items: center;
-    gap: 340px;
 }
 .nav {
     flex-grow: 1;
@@ -126,6 +125,7 @@ ul {
 }
 .contact-icons {
         fill: currentColor;
+        margin-right: 10px;
 }
 
 /* Герой */
