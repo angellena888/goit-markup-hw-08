@@ -22,7 +22,7 @@
                             <a href="./index.html" class="nav-link">Студія</a>
                         </li>
                         <li class="nav-item">
-                            <a href="./portfolio.html" class="nav-link link current">Портфоліо</a>
+                            <a href="./portfolio.html" class="nav-link link current-page">Портфоліо</a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">Контакти</a>
@@ -30,8 +30,21 @@
                     </ul>
                 </nav>
                 <ul class="list-contact">
-                    <li><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a></li>
+                    <li class="contact-item">
+                        <a href="mailto:info@devstudio.com" class="contact-link">
+                            <svg class="contact-icons" width="16" height="12">
+                                <use href="./images/symbol-defs.svg#icon-email"></use>
+                            </svg>
+                            info@devstudio.com
+                        </a>
+                    </li>
+                    <li class="contact-item">
+                        <a href="tel:+380961111111" class="contact-link">
+                            <svg class="contact-icons" width="16" height="12">
+                                <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+                            </svg>
+                            +38 096 111 11 11</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -62,8 +75,14 @@
             <div class="container">
             <ul class="portfolio-list">
                 <li class="portfolio-item">
-                    <a class="shadow" href="#">
-                    <img src="./images/portfolio-img1.jpg" alt="Ноутбук, де зображений приклад сайту" width="370" class="portfolio-img">
+                    <a class="shadow portfolio-link" href="#">
+                    <div class="portfolio-thumb">
+                        <img src="./images/portfolio-img1.jpg" alt="Ноутбук, де зображений приклад сайту" width="370" class="portfolio-img">
+                            <div class="portfolio-description">
+                                <p class="text-description">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу
+                                отримати вичерпні відомості про компанію чи приватну особу.</p>
+                            </div>
+                    </div>
                     <div class="portfolio-card">
                         <h3 class="title">Технокряк</h3>
                         <p class="text">Веб-сайт</p>
@@ -71,8 +90,14 @@
                     </a>
                 </li>  
                 <li class="portfolio-item">
-                    <a class="shadow" href="#">
+                    <a class="shadow portfolio-link" href="#">
+                        <div class="portfolio-thumb">
                     <img src="./images/portfolio-img2.jpg" alt="Два баскетболіста" width="370" class="portfolio-img">
+                    <div class="portfolio-description">
+                                <p class="text-description">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу
+                                отримати вичерпні відомості про компанію чи приватну особу.</p>
+                            </div>
+                        </div>
                     <div class="portfolio-card">
                         <h3 class="title">Постер <span lang="en">New Orlean vs Golden Star</span></h3>
                         <p class="text">Дизайн</p>
@@ -80,17 +105,29 @@
                     </a>
                 </li>  
                 <li class="portfolio-item">
-                    <a class="shadow" href="#">
-                    <img src="./images/portfolio-img3.jpg" alt="Логотип ресторану морської їжі" width="370" class="portfolio-img">
-                    <div class="portfolio-card">
+                    <a class="shadow portfolio-link" href="#">
+                    <div class="portfolio-thumb">
+                        <img src="./images/portfolio-img3.jpg" alt="Логотип ресторану морської їжі" width="370" class="portfolio-img">
+                    <div class="portfolio-description">
+                                <p class="text-description">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу
+                                отримати вичерпні відомості про компанію чи приватну особу.</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-card">
                         <h3 class="title">Ресторан <span lang="en">Seafood</span></h3>
                         <p class="text">Додаток</p>
                 </div>                
                 </a>
                 </li>
                 <li class="portfolio-item">
-                    <a class="shadow" href="#">
+                    <a class="shadow portfolio-link" href="#">
+                        <div class="portfolio-thumb">
                     <img src="./images/portfolio-img4.jpg" alt="Чорні навушники" width="370" class="portfolio-img">
+                    <div class="portfolio-description">
+                                <p class="text-description">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу
+                                отримати вичерпні відомості про компанію чи приватну особу.</p>
+                            </div>
+                        </div>
                     <div class="portfolio-card">
                         <h3 class="title">Проєкт <span lang="en">Prime</span></h3>
                         <p class="text">Маркетинг</p>
@@ -98,8 +135,14 @@
                     </a>
                 </li>
                 <li class="portfolio-item">
-                    <a class="shadow" href="#">
+                    <a class="shadow portfolio-link" href="#">
+                        <div class="portfolio-thumb">
                     <img src="./images/portfolio-img5.jpg" alt="Одна біла коробка, друга тілесного кольору" width="370" class="portfolio-img">
+                    <div class="portfolio-description">
+                                <p class="text-description">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу
+                                отримати вичерпні відомості про компанію чи приватну особу.</p>
+                            </div>
+                        </div>
                     <div class="portfolio-card">
                         <h3 class="title">Проєкт <span lang="en">Boxes</span></h3>
                         <p class="text">Додаток</p>
@@ -107,8 +150,14 @@
                     </a>
                 </li>
                 <li class="portfolio-item">
-                    <a class="shadow" href="#">
+                    <a class="shadow portfolio-link" href="#">
+                        <div class="portfolio-thumb">
                     <img src="./images/portfolio-img6.jpg" alt="Монітор комп'ютера, де зображений приклад сайту" width="370" class="portfolio-img">
+                    <div class="portfolio-description">
+                                <p class="text-description">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу
+                                отримати вичерпні відомості про компанію чи приватну особу.</p>
+                            </div>
+                        </div>
                     <div class="portfolio-card">
                         <h3 lang="en" class="title">Inspiration has no Borders</h3>
                         <p class="text">Веб-сайт</p>
@@ -116,8 +165,15 @@
                     </a>
                 </li>
                 <li class="portfolio-item">
-                    <a class="shadow" href="#">
+                    <a class="shadow portfolio-link" href="#">
+                        <div class="portfolio-thumb">
                     <img src="./images/portfolio-img7.jpg" alt="Журнал" width="370" class="portfolio-img">
+                    <div class="portfolio-description">
+                        <p class="text-description">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
+                            дозволить відвідувачу
+                            отримати вичерпні відомості про компанію чи приватну особу.</p>
+                    </div>
+                    </div>
                     <div class="portfolio-card">
                         <h3 class="title">Видання <span lang="en">Limited Edition</span></h3>
                         <p class="text">Дизайн</p>
@@ -125,8 +181,14 @@
                     </a>
                 </li>
                 <li class="portfolio-item">
-                    <a class="shadow" href="#">
+                    <a class="shadow portfolio-link" href="#">
+                        <div class="portfolio-thumb">
                     <img src="./images/portfolio-img8.jpg" alt="Біла етикетка" width="370" class="portfolio-img">
+                    <div class="portfolio-description">
+                                <p class="text-description">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу
+                                отримати вичерпні відомості про компанію чи приватну особу.</p>
+                            </div>
+                        </div>
                     <div class="portfolio-card">
                         <h3 class="title">Проєкт <span lang="en">LAB</span></h3>
                         <p class="text">Маркетинг</p>
@@ -134,9 +196,15 @@
                     </a>
                 </li>
                 <li class="portfolio-item">
-                    <a class="shadow" href="#">
+                    <a class="shadow portfolio-link" href="#">
+                        <div class="portfolio-thumb">
                     <img src="./images/portfolio-img9.jpg" alt="Ноутбук, на якому зображений приклад дизайну додатку для бізнесу" width="370" class="portfolio-img">
-                        <div class="portfolio-card">
+                    <div class="portfolio-description">
+                                <p class="text-description">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу
+                                отримати вичерпні відомості про компанію чи приватну особу.</p>
+                            </div>
+                        </div>    
+                    <div class="portfolio-card">
                         <h3 lang="en" class="title">Growing Business</h3>
                     <p class="text">Додаток</p>
                     </div>                 
