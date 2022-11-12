@@ -1,0 +1,195 @@
+.footer {
+    background-color: var(--accent-background-color);
+    padding: 60px 0;
+
+    .logo-studio {
+        color: var(--other-title-color);
+    }
+}
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-logo {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.address {
+    font-style: normal;
+}
+
+.footer__list-contact {
+    list-style: none;
+}
+
+.footer__contact-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    display: block;
+    transition-property: color, background-color, transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+.footer__item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.footer__map {
+    color: var(--other-title-color);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    margin-bottom: 9px;
+    display: block;
+    transition-property: color, background-color, transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+.footer__social-box {
+    margin-left: 70px
+}
+
+.footer__title-social {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1, 14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--other-title-color);
+    margin-bottom: 20px;
+}
+
+.footer__list-social {
+    list-style: none;
+    gap: 10px;
+    display: flex;
+}
+
+.footer__social-item {
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    background-size: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer__social-icon {
+    fill: var(--white-color);
+}
+
+.footer__social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: '';
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    transition-property: fill, background-color, transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+        fill: var(--white-color);
+        background-size: 100%;
+        border-radius: 50%;
+    }
+}
+
+.footer__text-form {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--other-title-color);
+    margin-bottom: 20px;
+}
+
+.footer-form {
+    display: flex;
+}
+
+.footer__input {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    width: 358px;
+    height: 50px;
+    padding: 16px 15px;
+    background-color: var(--accent-background-color);
+    color: var(--white-color);
+
+    &::placeholder {
+        font-size: 16px;
+        line-height: 1.2;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+    }
+}
+
+.footer-button {
+    position: relative;
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    padding: 10px 28px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid transparent;
+    margin-left: 12px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    transition-property: color, fill, background-color, transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus,
+    &:hover {
+        background-color: #188CE8;
+    }
+}
+
+.footer__icon-send {
+    position: absolute;
+    fill: var(--white-color);
+    right: 28px;
+}
+
+.footer__form-container {
+    margin-left: 93px;
+}

@@ -1,0 +1,42 @@
+.examples__title {
+    margin-top: 0;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+.examples__list {
+    list-style: none;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    flex-basis: calc((100% - 60px)/3);
+}
+
+.example-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 70px;
+        background-color: rgba(47, 48, 58, 0.8);
+    }
+}
+
+.examples__subtext {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    padding: 27px 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    text-transform: uppercase;
+    color: var(--other-title-color);
+}

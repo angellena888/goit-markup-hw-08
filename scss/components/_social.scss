@@ -1,0 +1,35 @@
+.team__social {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.team__net-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: "";
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    fill: var(--icons);
+    border-radius: 50%;
+    transition-property: fill, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+        fill: var(--white-color);
+        background-size: 100%;
+        border-radius: 50%;
+    }
+}
+
+.team__net-item {
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    background-size: 100%;
+}
