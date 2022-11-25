@@ -2,7 +2,7 @@
     background-color: var(--accent-background-color);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
-        url('../../images/hero-overlay-img.jpg');
+        url(../../images/hero-overlay-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -22,7 +22,7 @@
         background-image: linear-gradient(to right,
                 rgba(47, 48, 58, 0.4),
                 rgba(47, 48, 58, 0.4)),
-            url('../../images/hero-background-img@2x.jpg');
+            url(../../images/hero-background-img@2x.jpg);
         background-position: center;
     }
 }
@@ -46,7 +46,7 @@
         background-image: linear-gradient(to right,
                 rgba(47, 48, 58, 0.4),
                 rgba(47, 48, 58, 0.4)),
-            url('../../images/hero-background-img@3x.jpg');
+            url(../../images/hero-background-img@3x.jpg);
         background-position: center;
     }
 }
