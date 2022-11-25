@@ -40,3 +40,12 @@
     text-transform: uppercase;
     color: var(--other-title-color);
 }
+
+.section-examples {
+        padding: 94px 0;
+            text-align: center;
+        
+            @media screen and (max-width: 1200px) {
+                display: none;
+            }
+}
