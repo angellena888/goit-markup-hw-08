@@ -18,7 +18,8 @@
 .modal {
     position: absolute;
     transform: translate(-50%, -50%) scale(1);
-    min-width: 528px;
+    // min-width: 528px;
+    width: 100%;
     height: 581px;
     top: 50%;
     left: 50%;
@@ -29,6 +30,22 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     padding: 40px;
+
+    @media screen and (max-width: 479px) {
+    
+            height: 100%;
+            padding: 40px 20px;
+        }
+    
+        @media screen and (min-width: 480px) {
+            width: 100%;
+            max-width: 450px;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            max-width: 528px;
+            min-height: 581px;
+        }
 }
 
 .close-button {
@@ -181,6 +198,10 @@
     cursor: pointer;
     display: inline-block;
     margin-left: 7px;
+
+    @media screen and (max-width: 1199px) {
+        font-size: 12px;
+    }
 }
 
 .check-link {
@@ -208,7 +229,11 @@
     height: 15px;
     background-size: contain;
     transition: background-color 250ms var(--timing-function),
-        fill-opacity 250ms var(--timing-function);
+    fill-opacity 250ms var(--timing-function);
+
+        @media screen and (max-width: 1199px) {
+                left: 20px;
+            }
 }
 
 .checkbox-container {
@@ -217,4 +242,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.contact-form {
+    width: 100%;
 }
