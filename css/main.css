@@ -58,21 +58,21 @@ img {
   padding: 0 15px;
   width: 100%;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 1200px) {
   .container {
-    max-width: 480px;
-    margin: 0 auto;
+    width: 1200px;
   }
 }
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    width: 768px;
     margin: 0 auto;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 480px) {
   .container {
-    max-width: 1200px;
+    width: 480px;
+    margin: 0 auto;
   }
 }
 
@@ -1836,7 +1836,6 @@ h2 {
   .team-section {
     padding-top: 60px;
     padding-bottom: 60px;
-    max-width: 480px;
   }
 }
 @media screen and (max-width: 1199px) {
@@ -1905,7 +1904,6 @@ h2 {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    width: 768px;
     gap: 30px;
   }
 }
@@ -1924,7 +1922,6 @@ h2 {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    width: 1200px;
     gap: 30px;
   }
 }
