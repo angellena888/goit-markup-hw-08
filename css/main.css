@@ -1972,7 +1972,6 @@ h2 {
 
 @media (max-width: 480px) {
   .employee-image {
-    max-width: 450px;
     height: auto;
   }
 }
