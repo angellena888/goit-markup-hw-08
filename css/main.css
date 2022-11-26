@@ -192,7 +192,7 @@ img {
 }
 @media screen and (max-width: 480px) {
   .benefits__item {
-    width: 450px;
+    max-width: 450px;
     height: 256px;
   }
 }
@@ -269,7 +269,6 @@ h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100%;
 }
 
 .clients__title {
@@ -470,7 +469,7 @@ h2 {
 }
 @media (max-width: 480px) {
   .footer {
-    width: 480px;
+    max-width: 480px;
   }
 }
 .footer .logo-studio {
@@ -654,8 +653,13 @@ h2 {
 }
 
 .footer__social-box {
-  margin-left: 124px;
-  margin-right: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 479px) {
+  .footer__social-box {
+    text-align: center;
+  }
 }
 
 .footer__title-social {
@@ -851,10 +855,18 @@ h2 {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-@media (max-width: 767px) {
+@media (min-width: 480px) and (max-width: 767px) {
   .footer__input {
     width: 450px;
     margin-bottom: 20px;
+  }
+}
+@media (max-width: 375px) {
+  .footer__input {
+    max-width: 280px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -1271,7 +1283,6 @@ h2 {
 @media screen and (max-width: 479px) {
   .modal {
     height: 100%;
-    padding: 40px 20px;
   }
 }
 @media screen and (min-width: 480px) {
@@ -1722,7 +1733,7 @@ h2 {
   .team-section {
     padding-top: 60px;
     padding-bottom: 60px;
-    width: 480px;
+    max-width: 480px;
   }
 }
 
@@ -1855,7 +1866,7 @@ h2 {
 
 @media (max-width: 480px) {
   .employee-image {
-    width: 450px;
+    max-width: 450px;
     height: auto;
   }
 }

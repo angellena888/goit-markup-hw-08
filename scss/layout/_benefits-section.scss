@@ -36,7 +36,7 @@
         }
 
             @media screen and (max-width: 480px) {
-                    width: 450px;
+                    max-width: 450px;
                     height: 256px;
             }
 }
@@ -98,5 +98,4 @@ h2 {
 .benefits-container {
     display: flex;
     align-items: center;
-    width: 100%;
 }

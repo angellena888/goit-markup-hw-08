@@ -12,7 +12,7 @@
     @media (max-width: 480px) {
         padding-top: 60px;
         padding-bottom: 60px;
-        width: 480px;
+        max-width: 480px;
     }
 }
 
@@ -105,7 +105,7 @@
 
 .employee-image {
     @media (max-width: 480px) {
-        width: 450px;
+        max-width: 450px;
         height: auto;
     }
 }
