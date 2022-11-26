@@ -334,6 +334,13 @@ display: block;
             margin-bottom: 60px;
         }
 
+        @media (max-width: 479px) {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 60px;
+           
+        }
+
 }
 
 .footer__net-container {

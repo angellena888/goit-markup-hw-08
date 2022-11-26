@@ -956,6 +956,18 @@ h2 {
     margin-bottom: 60px;
   }
 }
+@media (max-width: 479px) {
+  .contact-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 60px;
+  }
+}
 
 .footer__net-container {
   margin-bottom: 60px;
@@ -1283,6 +1295,8 @@ h2 {
 @media screen and (max-width: 479px) {
   .modal {
     height: 100%;
+    width: 100%;
+    padding: 40px 20px;
   }
 }
 @media screen and (min-width: 480px) {
